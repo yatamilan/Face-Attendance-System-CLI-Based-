@@ -1,0 +1,40 @@
+# ================================
+# Face Attendance Project
+# ================================
+# Author: Yukeshwaran
+# Description: Face recognition based attendance system using OpenCV + Pandas + Tkinter
+# =================================
+
+# ---- Python Libraries Required ----
+opencv-contrib-python
+pandas
+numpy
+Pillow
+openpyxl
+
+# ---- How to Run ----
+# 1. Install dependencies:
+#    pip install -r requirements.txt
+#
+# 2. Create dataset folder with subfolders for each student:
+#    Example:
+#    dataset/
+#       101_WangLing/
+#       102_Naruto/
+#       103_Ayanokoji/
+#
+# 3. Register faces and train the model:
+#    python face_register.py
+#
+# 4. Run attendance system:
+#    python face_attendance.py
+#
+# Attendance will be saved in:
+#    attendance_<date>.xlsx
+#
+# ---------------------------------
+# Note:
+# - Make sure your webcam is working.
+# - First run face_register.py to generate face_model.yml & labels.pickle
+# - Then run face_attendance.py to start attendance.
+# ---------------------------------
